@@ -1,0 +1,21 @@
+<!--Colors retrieved from https://kuler.adobe.com/pumpkin-patch-color-theme-3042588/edit/?copy=true&base=2&rule=Custom&selected=4&name=Copy%20of%20pumpkin%20patch&mode=rgb&rgbvalues=0.4285714285714624,0.56,0.18285714285714288,0.047058823529411764,0.5372549019607843,0.8588235294117647,0.9529411764705882,0.6313725490196078,0.00392156862745098,0.9529411764705882,0.4627450980392157,0.03529411764705882,0.7450980392156863,0.023529411764705882,0.00784313725490196&swatchOrder=0,1,2,3,4   -->
+body {
+	background-color: rgb(243,161,1);
+}
+h1 {
+	background-color: #F37609;
+	color :#666666;
+}
+h2, h3 {
+	background-color: DarkCyan;
+	color : yellow;
+}
+p, ol {
+	background-color: #6D8F2F;
+	color: #BE0602;
+}
+h3 {
+	opacity: .5;
+	color: hsla(0,100%,100%,5);
+	font-weight: bold;
+}
