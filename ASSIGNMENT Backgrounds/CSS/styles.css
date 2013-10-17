@@ -1,0 +1,122 @@
+/*--Colors retrieved from https://kuler.adobe.com/pumpkin-patch-color-theme-3042588/edit/?copy=true&base=2&rule=Custom&selected=4&name=Copy%20of%20pumpkin%20patch&mode=rgb&rgbvalues=0.4285714285714624,0.56,0.18285714285714288,0.047058823529411764,0.5372549019607843,0.8588235294117647,0.9529411764705882,0.6313725490196078,0.00392156862745098,0.9529411764705882,0.4627450980392157,0.03529411764705882,0.7450980392156863,0.023529411764705882,0.00784313725490196&swatchOrder=0,1,2,3,4  */
+
+body {
+	background: url("../images/pattern_135.gif") repeat top left;
+	padding: 30pt;
+	font-family: Georgia, Times, serif;
+	letter-spacing: .2em;
+	width:90%;
+	margin: 0% auto;
+
+}
+h1, h2, h3 {
+	background: #6D8F2F url("../images/1381989587_camera_unmount2.png") no-repeat center left;
+	color :#FBFE72;
+	padding-top:25px;
+	padding-bottom:25px;
+	text-indent:75px;
+	font-family: "Cantora One";
+	text-shadow: 2px 2px 2px #4E4F23;
+	width: 95%;
+	margin: 10px auto;
+	border-width: 2px;
+	border-style: solid;
+	border-color: black;
+	overflow: auto;
+}
+ul {
+	width:90%;
+	text-align:center;
+}
+
+
+ul li {
+	background: linear-gradient(to bottom, rgba(249,249,249,0) 0%,rgba(249,249,249,0.8) 15%,rgba(249,249,249,1) 19%,rgba(249,249,249,1) 20%,rgba(255,255,255,1) 50%,rgba(255,255,255,1) 80%,rgba(255,255,255,1) 81%,rgba(255,255,255,0.8) 85%,rgba(255,255,255,0) 100%);
+	padding:5px;
+	display: inline;
+	margin: 3%;
+	}
+p {
+	background: linear-gradient(to bottom, rgba(220,233,242,1) 0%,rgba(130,140,149,1) 14%,rgba(99,87,67,1) 100%);
+	color: #FFAA40;
+	padding: 2pt;
+	text-align: justify;
+	margin: 10px auto;
+	border-width: 2px;
+	padding: 10px 7px 10px 7px;
+	overflow: auto;
+	border-width: 2px;
+	border-style: solid;
+	border-color: black;
+}
+p:first-letter {
+	font-size: 2.5em;
+}
+p:first-line {
+	font-weight: bold;
+}
+ol {
+	background-color: #FBFE72;
+	opacity: 0.7;
+	font-size: 0.9em;
+	font-style: italic;
+	line-height: 1.4em;
+	text-indent: 10pt;
+	list-style-type: lower-roman;
+	width: 50%;
+	margin:10px auto 10px auto;
+	padding:10px;
+	border-radius: 10px; 
+	-moz-border-radius: 10px; 
+	-webkit-border-radius: 10px;
+	-moz-box-shadow: 5px 5px 5px #777777; 
+	-webkit-box-shadow: 5px 5px 5px #777777; 
+	box-shadow: 5px 5px 5px #777777;
+}
+#credits, a, st {
+	font-family: "Courier New", Courier, monospace;
+	letter-spacing: .06em;
+	text-transform: uppercase;
+}
+h1 {
+font-size: 2em;
+}
+h3 { 
+font-size: 1.15em;
+}
+a:link {
+	color: darkblue;
+	text-decoration: none;
+}
+a:visited {
+	color: black;
+}
+a:hover {
+	color: darkblue;
+	text-decoration: underline;
+}
+a:active {
+	color: lightblue;
+}
+#top {
+	width:100%;
+	overflow:auto;
+}
+#bodyl {
+	float:left;
+	width:60%;
+	margin-right:10px;
+}
+#bodyr {
+	float:right;
+	width:35%;
+}
+#col1 { 
+	float:left;
+	width:38%;
+	margin-right:10px;
+}
+#col2 {
+	float:right;
+	width:60%;
+}
