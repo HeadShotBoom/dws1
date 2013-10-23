@@ -171,10 +171,6 @@ label.question {
 	float:left;
 	text-align:right;
 }
-/*adds space between the options in the form*/
-option {
-	margin-top:50px;
-}
 /*Customizes headings in the form*/
 h3.different {
 	margin:10px auto;
@@ -183,4 +179,7 @@ h3.different {
 #logoimg {
 	float:left;
 	margin-right:10px;
+}
+figcaption {
+	font-style: italic;
 }
