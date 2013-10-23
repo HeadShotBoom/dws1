@@ -1,0 +1,186 @@
+/*Styles for body*/
+body {
+	background-image: url("../images/foundation.gif");/*Background Image*/
+	padding: 30px; /*Space between boarder and inside elements*/
+	border: 1px solid black; /*Border*/
+	font-family: Georgia, Times, serif;/*Define font*/
+	width:90%;/*Width of page*/
+	margin:10px auto;/*Page Margins*/
+} 
+/*Heading Levels 2&3 Styles*/
+h2, h3 {
+	background-color: #cccccc;
+	opacity: 0.8;/*Transparency level*/
+	font-size:150%;
+	text-shadow: 1px 1px 2px #333;/*Adds shadows to text*/
+	height: 30px;
+	padding:10px;
+}
+h2 {
+	font-weight:bold;
+}
+h3 {
+	font-weight:normal;
+	font-style: italic;
+	width:50%;
+	border-radius: 10px;
+}
+/*Main heading Styles*/
+h1 {
+	color: #663300;/*Font color*/
+	background-color: #fffff0;
+	font-size:200%;
+	font-family: 'Kotta One', serif;
+	padding:7px;
+	width:40%;
+	text-align:center;/*Aligns Text*/
+	margin: 10px auto;
+	border-radius: 30px;/*Rounded Corners*/
+}
+/*Footer Styleing*/
+footer {
+	background-color: #ccffcc;
+	font-family: "Courier New", Courier, monospace;
+	box-shadow: 5px 5px 5px #777777;/*Places Shadow around entire Footer Element*/
+	text-align:right;
+	padding: 10px;
+}
+/*Paragraph styles*/
+p {
+	line-height: 1.4em;/*Spacing between lines of text*/
+}
+/*Styles for the sidebar*/
+aside {
+	border: 1px solid #000;
+	padding: 5px;
+	background-color: #ccffcc;
+	box-shadow: 5px 5px 5px #777777;
+	float: right;/*Places element on right side and wrap text*/
+	width: 30%;
+	clear: right;/*Ensures no element touches right side*/
+}
+aside h3 {
+	width:90%;
+	text-align:center;
+	margin:10px;
+}
+/*Table Styles*/
+table {
+	background-color: #fff;
+	margin: 5px auto;
+	width:90%;
+	padding:2px;
+	letter-spacing: 0.05em;/*Spacing between letters*/
+	font-size:90%;
+	border: 3px double #777
+}
+/*Adds space below last table*/
+table.last {
+	margin-bottom: 20px;
+}
+/*Style of list items in the unordered list*/
+nav ul li{
+	display: inline;
+	margin-right: 20px;
+}
+/*Nav elements*/
+nav {
+	text-align: center;
+	font-family: "Courier New", Courier, monospace;
+	background: linear-gradient(to bottom, rgba(204,255,204,0) 0%,rgba(204,255,204,0.8) 19%,rgba(204,255,204,1) 25%,rgba(204,255,204,1) 50%,rgba(204,255,204,1) 72%,rgba(204,255,204,1) 73%,rgba(204,255,204,0.8) 80%,rgba(204,255,204,0) 100%);
+	padding:5px;
+}
+/*Styles for the element with the ID of services*/
+#services {
+	width: 65%;
+}
+div.logo {
+	padding:10px;
+}
+img.logoimg {
+	margin-right: 20px;/*Adds space to the right side of the image*/
+}
+/*Styles for the second image on the page*/
+figure.second {
+	float:right;
+	margin-left: 10px;
+}
+div.footer {
+	background: url("../images/dark-canvas.gif") repeat-y top left;
+}
+/*Styles for the element witht he ID of bg*/
+#bg {
+	background: url("../images/train.png") no-repeat center right;
+	padding-right:150px;
+}
+aside table tr th {
+	text-align:right;
+}
+aside table {
+	border-spacing: 5px;/*Adds space between cells in the table*/
+}
+/*Adds border to the table cells*/
+th, td {
+	border: 1px solid #777;
+}
+/*Adds styleing to the table cells when you hover over an item*/
+tr:hover {
+	background-color: #000;
+	color: #fff;
+}
+/*Defines width of the form*/
+form {
+	width:80%;
+	padding: 5px;
+	margin: 10px auto 10px auto;
+	font-size: 150%;
+	color: #fff;
+}
+/*Formats the labels in the form*/
+label {
+	float: left;
+	text-align: right;
+	clear: left;/*ensures no element touches the left of the item*/
+	width: 60%;
+	margin-right: 15px;
+}
+/*Formatting for the comment block in the form*/
+textarea:focus, input:focus, textarea:hover, input:hover  {
+	border: 2px solid #900;
+	background-color:black;
+	color:white;
+}
+/*Border for the login class for all div elements*/
+div.login {
+	border: 1px solid #fff;
+}
+/*Adjusts formatting for all paragraphs in the form*/
+p.form {
+	background-color:transparent;
+	border: 1px solid #fff;
+	font-size:75%;
+	color: #fff;
+	padding:15px;
+}
+/*Adds formatting to the button*/
+div.button {
+	margin: 20px auto;
+	text-align:center;
+}
+label.question {
+	float:left;
+	text-align:right;
+}
+/*adds space between the options in the form*/
+option {
+	margin-top:50px;
+}
+/*Customizes headings in the form*/
+h3.different {
+	margin:10px auto;
+	text-align: center;
+}
+#logoimg {
+	float:left;
+	margin-right:10px;
+}
